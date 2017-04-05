@@ -25,6 +25,7 @@
          data source, this example data source is just for development and testing! -->
       <!-- The datasource is deployed as WEB-INF/helloworld-ds.xml, you
          can find it in the source at src/main/webapp/WEB-INF/helloworld-ds.xml -->
+      
       <jta-data-source>java:jboss/datasources/helloworldDS</jta-data-source>
       <properties>
          <!-- Properties for Hibernate -->
